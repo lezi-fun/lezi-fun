@@ -6,7 +6,7 @@
 
 **学生 · 独立开发者 / Student · Indie Developer**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=8BE9FD&center=true&vCenter=true&width=760&lines=I+build+web+products%2C+open-source+tools%2C+automation%2C+and+practical+utilities.;TypeScript+%7C+C%2B%2B+%7C+React+%7C+Node.js;Web+%2B+Open+Source+%2B+Automation+%2B+Developer+Tools" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=8BE9FD&center=true&vCenter=true&width=760&lines=I+build+web+products%2C+open-source+tools%2C+automation%2C+and+practical+utilities.;TypeScript+%7C+Node.js+%7C+Fastify+%7C+React+%7C+Prisma+%7C+C%2B%2B;GitHub+Actions+%2B+Codex+%2B+CMake+%2B+Vite" alt="Typing SVG" />
 
 [lezi.chat](https://lezi.chat) · [ghbot](https://github.com/lezi-fun/ghbot) · [nodew-api](https://github.com/lezi-fun/nodew-api) · [cppp](https://github.com/lezi-fun/cppp)
 
@@ -28,9 +28,20 @@ I build things that are fast to use, easy to understand, and actually useful.
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/GitHub_API-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub API" />
+  <img src="https://img.shields.io/badge/Codex-111111?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
+  <img src="https://img.shields.io/badge/GitHub_Actions_&_Workflows-24292F?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions & Workflows" />
 </p>
 
 ### What I Build / 我在做什么
