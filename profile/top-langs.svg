@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760" height="296" viewBox="0 0 760 296" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="profile card">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111f" />
+      <stop offset="60%" stop-color="#0b1220" />
+      <stop offset="100%" stop-color="#050814" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5eead4" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#020617" flood-opacity="0.55" />
+    </filter>
+    <style>
+      .title { fill: #f8fafc; font: 700 22px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .subtitle { fill: #94a3b8; font: 500 12px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .hero { fill: #f8fafc; font: 800 44px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .panel-title { fill: #cbd5e1; font: 600 14px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.08em; }
+      .panel-text { fill: #94a3b8; font: 500 12px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .tile-label { fill: #94a3b8; font: 600 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.08em; }
+      .tile-value { fill: #f8fafc; font: 700 18px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .lang-name { fill: #e2e8f0; font: 600 13px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .lang-meta { fill: #cbd5e1; font: 600 12px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .lang-bytes { fill: #94a3b8; font: 500 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .legend { fill: #94a3b8; font: 500 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .footer { fill: #64748b; font: 500 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .panel, .tile, .track { fill: rgba(15, 23, 42, 0.75); stroke: rgba(148, 163, 184, 0.14); stroke-width: 1; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" rx="22" fill="url(#bg)" filter="url(#shadow)" />
+  <rect x="0" y="0" width="760" height="5" rx="22" fill="url(#accent)" />
+  
+    <text x="28" y="42" class="title">Top Languages / 语言分布</text>
+    <text x="28" y="66" class="subtitle">Aggregated from your public non-fork repositories.</text>
+
+    <g transform="translate(28, 90)">
+      
+    <g transform="translate(0, 0)">
+      <text x="0" y="14" class="lang-name">TypeScript</text>
+      <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
+      <rect x="184" y="4" width="390" height="12" rx="6" fill="#8b5cf6" />
+      <text x="610" y="14" class="lang-meta">94.6%</text>
+      <text x="688" y="14" class="lang-bytes">31.6M</text>
+    </g>
+  
+    <g transform="translate(0, 30)">
+      <text x="0" y="14" class="lang-name">Rust</text>
+      <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
+      <rect x="184" y="4" width="14" height="12" rx="6" fill="#06b6d4" />
+      <text x="610" y="14" class="lang-meta">3.5%</text>
+      <text x="688" y="14" class="lang-bytes">1.2M</text>
+    </g>
+  
+    <g transform="translate(0, 60)">
+      <text x="0" y="14" class="lang-name">C++</text>
+      <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
+      <rect x="184" y="4" width="6" height="12" rx="6" fill="#22c55e" />
+      <text x="610" y="14" class="lang-meta">0.6%</text>
+      <text x="688" y="14" class="lang-bytes">216.3K</text>
+    </g>
+  
+    <g transform="translate(0, 90)">
+      <text x="0" y="14" class="lang-name">JavaScript</text>
+      <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
+      <rect x="184" y="4" width="6" height="12" rx="6" fill="#f59e0b" />
+      <text x="610" y="14" class="lang-meta">0.3%</text>
+      <text x="688" y="14" class="lang-bytes">105.8K</text>
+    </g>
+  
+    <g transform="translate(0, 120)">
+      <text x="0" y="14" class="lang-name">Shell</text>
+      <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
+      <rect x="184" y="4" width="6" height="12" rx="6" fill="#ef4444" />
+      <text x="610" y="14" class="lang-meta">0.3%</text>
+      <text x="688" y="14" class="lang-bytes">102.3K</text>
+    </g>
+  
+    <g transform="translate(0, 150)">
+      <text x="0" y="14" class="lang-name">Other</text>
+      <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
+      <rect x="184" y="4" width="6" height="12" rx="6" fill="#3b82f6" />
+      <text x="610" y="14" class="lang-meta">0.6%</text>
+      <text x="688" y="14" class="lang-bytes">190.9K</text>
+    </g>
+  
+    </g>
+
+    <text x="28" y="276" class="footer">Scanned 20 public repositories.</text>
+  
+</svg>

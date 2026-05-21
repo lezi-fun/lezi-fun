@@ -82,8 +82,15 @@ I build things that are fast to use, easy to understand, and actually useful.
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=lezi-fun&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub Stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lezi-fun&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+<img src="./profile/stats.svg" alt="GitHub Stats" />
+
+</div>
+
+### Top Languages / 语言分布
+
+<div align="center">
+
+<img src="./profile/top-langs.svg" alt="Top Languages" />
 
 </div>
 
@@ -91,9 +98,13 @@ I build things that are fast to use, easy to understand, and actually useful.
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=lezi-fun&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
+<img src="./profile/streak.svg" alt="GitHub Streak" />
 
 </div>
+
+<p align="center">
+  <sub>Self-hosted SVGs generated in this repository.</sub>
+</p>
 
 ### Contact / 联系方式
 

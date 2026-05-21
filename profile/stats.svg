@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760" height="240" viewBox="0 0 760 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="profile card">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111f" />
+      <stop offset="60%" stop-color="#0b1220" />
+      <stop offset="100%" stop-color="#050814" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5eead4" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#020617" flood-opacity="0.55" />
+    </filter>
+    <style>
+      .title { fill: #f8fafc; font: 700 22px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .subtitle { fill: #94a3b8; font: 500 12px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .hero { fill: #f8fafc; font: 800 44px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .panel-title { fill: #cbd5e1; font: 600 14px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.08em; }
+      .panel-text { fill: #94a3b8; font: 500 12px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .tile-label { fill: #94a3b8; font: 600 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.08em; }
+      .tile-value { fill: #f8fafc; font: 700 18px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .lang-name { fill: #e2e8f0; font: 600 13px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .lang-meta { fill: #cbd5e1; font: 600 12px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .lang-bytes { fill: #94a3b8; font: 500 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .legend { fill: #94a3b8; font: 500 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .footer { fill: #64748b; font: 500 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .panel, .tile, .track { fill: rgba(15, 23, 42, 0.75); stroke: rgba(148, 163, 184, 0.14); stroke-width: 1; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" rx="22" fill="url(#bg)" filter="url(#shadow)" />
+  <rect x="0" y="0" width="760" height="5" rx="22" fill="url(#accent)" />
+  
+    <text x="28" y="42" class="title">GitHub Stats / 数据</text>
+    <text x="28" y="66" class="subtitle">Self-hosted in this repository, refreshed by GitHub Actions.</text>
+
+    <g transform="translate(28, 92)">
+      <rect x="0" y="0" width="210" height="118" rx="18" class="panel" />
+      <text x="20" y="48" class="hero">30</text>
+      <text x="20" y="74" class="panel-title">public repos</text>
+      <text x="20" y="100" class="panel-text">8 stars · 299 contributions / year</text>
+      <text x="20" y="122" class="panel-text">Since 2024</text>
+
+      
+    <g transform="translate(230, 0)">
+      <rect x="0" y="0" width="150" height="54" rx="16" class="tile" />
+      <text x="14" y="22" class="tile-label">Followers</text>
+      <text x="14" y="40" class="tile-value">1</text>
+    </g>
+  
+      
+    <g transform="translate(390, 0)">
+      <rect x="0" y="0" width="150" height="54" rx="16" class="tile" />
+      <text x="14" y="22" class="tile-label">Following</text>
+      <text x="14" y="40" class="tile-value">3</text>
+    </g>
+  
+      
+    <g transform="translate(550, 0)">
+      <rect x="0" y="0" width="150" height="54" rx="16" class="tile" />
+      <text x="14" y="22" class="tile-label">Current streak</text>
+      <text x="14" y="40" class="tile-value">1 day</text>
+    </g>
+  
+
+      
+    <g transform="translate(230, 64)">
+      <rect x="0" y="0" width="150" height="54" rx="16" class="tile" />
+      <text x="14" y="22" class="tile-label">Public gists</text>
+      <text x="14" y="40" class="tile-value">0</text>
+    </g>
+  
+      
+    <g transform="translate(390, 64)">
+      <rect x="0" y="0" width="150" height="54" rx="16" class="tile" />
+      <text x="14" y="22" class="tile-label">Longest streak</text>
+      <text x="14" y="40" class="tile-value">6 days</text>
+    </g>
+  
+      
+    <g transform="translate(550, 64)">
+      <rect x="0" y="0" width="150" height="54" rx="16" class="tile" />
+      <text x="14" y="22" class="tile-label">Active days</text>
+      <text x="14" y="40" class="tile-value">57</text>
+    </g>
+  
+    </g>
+  
+</svg>
