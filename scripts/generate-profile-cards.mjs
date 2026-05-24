@@ -145,12 +145,22 @@ function summarizeContributions(days) {
     }
   }
 
-  for (let index = days.length - 1; index >= 0; index -= 1) {
-    if (days[index].count > 0) {
-      current += 1;
-      continue;
+  let currentIndex = days.length - 1;
+  const todayUtc = toDateString(new Date());
+
+  if (
+    currentIndex >= 0 &&
+    days[currentIndex].date === todayUtc &&
+    days[currentIndex].count === 0
+  ) {
+    currentIndex -= 1;
+  }
+
+  for (let index = currentIndex; index >= 0; index -= 1) {
+    if (days[index].count <= 0) {
+      break;
     }
-    break;
+    current += 1;
   }
 
   return { current, longest, total, activeDays };
@@ -224,33 +234,36 @@ function buildLanguagesSvg({ repos, topLanguages }) {
 
 function buildStreakSvg({ contributions, contributionStats }) {
   const width = 760;
-  const cell = 11;
-  const gap = 3;
-  const weeks = 52;
+  const outerX = 28;
+  const outerY = 86;
+  const chartY = 74;
+  const cell = 10;
+  const gap = 2;
   const rows = 7;
+  const weeks = Math.ceil(contributions.length / rows);
   const gridWidth = weeks * (cell + gap) - gap;
   const gridHeight = rows * (cell + gap) - gap;
-  const gridX = 28;
-  const gridY = 132;
   const endDate = parseUtcDate(contributions[contributions.length - 1].date);
   const startDate = alignSunday(addDaysUtc(endDate, -weeks * 7 + 1));
   const lookup = new Map(contributions.map((day) => [day.date, day]));
-  const height = gridY + gridHeight + 40;
+  const height = outerY + chartY + gridHeight + 36;
+  const legendX = Math.max(0, gridWidth - 124);
+  const legendY = chartY - 24;
 
   return svgFrame(width, height, `
     <text x="28" y="42" class="title">Streak / 连续贡献</text>
     <text x="28" y="66" class="subtitle">Built from GitHub's public contributions calendar.</text>
 
-    <g transform="translate(28, 86)">
+    <g transform="translate(${outerX}, ${outerY})">
       ${metricTile(0, 0, 140, 54, 'Current streak', formatDays(contributionStats.current))}
       ${metricTile(150, 0, 140, 54, 'Longest streak', formatDays(contributionStats.longest))}
       ${metricTile(300, 0, 140, 54, 'Total', formatNumber(contributionStats.total))}
 
-      <g transform="translate(${gridX}, ${gridY})">
+      <g transform="translate(0, ${chartY})">
         ${renderHeatmap(startDate, weeks, rows, cell, gap, lookup).join('')}
       </g>
 
-      <g transform="translate(${gridX + gridWidth - 102}, ${gridY - 24})">
+      <g transform="translate(${legendX}, ${legendY})">
         ${legendSwatch(0, 0, '#0f172a', '0')}
         ${legendSwatch(24, 0, '#0f3d4a', '1')}
         ${legendSwatch(48, 0, '#116d7c', '2')}
