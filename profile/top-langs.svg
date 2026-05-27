@@ -42,7 +42,7 @@
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="390" height="12" rx="6" fill="#8b5cf6" />
       <text x="610" y="14" class="lang-meta">94.6%</text>
-      <text x="688" y="14" class="lang-bytes">31.6M</text>
+      <text x="688" y="14" class="lang-bytes">31.7M</text>
     </g>
   
     <g transform="translate(0, 30)">
@@ -82,7 +82,7 @@
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#3b82f6" />
       <text x="610" y="14" class="lang-meta">0.6%</text>
-      <text x="688" y="14" class="lang-bytes">190.9K</text>
+      <text x="688" y="14" class="lang-bytes">193.3K</text>
     </g>
   
     </g>
