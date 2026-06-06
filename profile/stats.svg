@@ -39,7 +39,7 @@
       <rect x="0" y="0" width="210" height="118" rx="18" class="panel" />
       <text x="20" y="48" class="hero">30</text>
       <text x="20" y="74" class="panel-title">public repos</text>
-      <text x="20" y="100" class="panel-text">8 stars · 438 contributions / year</text>
+      <text x="20" y="100" class="panel-text">8 stars · 439 contributions / year</text>
       <text x="20" y="122" class="panel-text">Since 2024</text>
 
       
@@ -60,7 +60,7 @@
     <g transform="translate(550, 0)">
       <rect x="0" y="0" width="150" height="54" rx="16" class="tile" />
       <text x="14" y="22" class="tile-label">Current streak</text>
-      <text x="14" y="40" class="tile-value">12 days</text>
+      <text x="14" y="40" class="tile-value">13 days</text>
     </g>
   
 
@@ -75,14 +75,14 @@
     <g transform="translate(390, 64)">
       <rect x="0" y="0" width="150" height="54" rx="16" class="tile" />
       <text x="14" y="22" class="tile-label">Longest streak</text>
-      <text x="14" y="40" class="tile-value">12 days</text>
+      <text x="14" y="40" class="tile-value">13 days</text>
     </g>
   
       
     <g transform="translate(550, 64)">
       <rect x="0" y="0" width="150" height="54" rx="16" class="tile" />
       <text x="14" y="22" class="tile-label">Active days</text>
-      <text x="14" y="40" class="tile-value">83</text>
+      <text x="14" y="40" class="tile-value">84</text>
     </g>
   
     </g>
