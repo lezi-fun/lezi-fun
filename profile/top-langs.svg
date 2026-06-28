@@ -40,8 +40,8 @@
     <g transform="translate(0, 0)">
       <text x="0" y="14" class="lang-name">TypeScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="390" height="12" rx="6" fill="#8b5cf6" />
-      <text x="610" y="14" class="lang-meta">94.7%</text>
+      <rect x="184" y="4" width="389" height="12" rx="6" fill="#8b5cf6" />
+      <text x="610" y="14" class="lang-meta">94.4%</text>
       <text x="688" y="14" class="lang-bytes">32.1M</text>
     </g>
   
@@ -74,19 +74,19 @@
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#ef4444" />
       <text x="610" y="14" class="lang-meta">0.3%</text>
-      <text x="688" y="14" class="lang-bytes">102.3K</text>
+      <text x="688" y="14" class="lang-bytes">108.5K</text>
     </g>
   
     <g transform="translate(0, 150)">
       <text x="0" y="14" class="lang-name">Other</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#3b82f6" />
-      <text x="610" y="14" class="lang-meta">0.6%</text>
-      <text x="688" y="14" class="lang-bytes">196.1K</text>
+      <text x="610" y="14" class="lang-meta">0.8%</text>
+      <text x="688" y="14" class="lang-bytes">273.8K</text>
     </g>
   
     </g>
 
-    <text x="28" y="276" class="footer">Scanned 20 public repositories.</text>
+    <text x="28" y="276" class="footer">Scanned 21 public repositories.</text>
   
 </svg>
