@@ -40,9 +40,9 @@
     <g transform="translate(0, 0)">
       <text x="0" y="14" class="lang-name">TypeScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="388" height="12" rx="6" fill="#8b5cf6" />
-      <text x="610" y="14" class="lang-meta">94.1%</text>
-      <text x="688" y="14" class="lang-bytes">32.2M</text>
+      <rect x="184" y="4" width="387" height="12" rx="6" fill="#8b5cf6" />
+      <text x="610" y="14" class="lang-meta">93.9%</text>
+      <text x="688" y="14" class="lang-bytes">32.3M</text>
     </g>
   
     <g transform="translate(0, 30)">
@@ -62,31 +62,31 @@
     </g>
   
     <g transform="translate(0, 90)">
-      <text x="0" y="14" class="lang-name">Python</text>
+      <text x="0" y="14" class="lang-name">JavaScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#f59e0b" />
-      <text x="610" y="14" class="lang-meta">0.4%</text>
-      <text x="688" y="14" class="lang-bytes">143.9K</text>
+      <text x="610" y="14" class="lang-meta">0.6%</text>
+      <text x="688" y="14" class="lang-bytes">202.7K</text>
     </g>
   
     <g transform="translate(0, 120)">
-      <text x="0" y="14" class="lang-name">JavaScript</text>
+      <text x="0" y="14" class="lang-name">Python</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#ef4444" />
       <text x="610" y="14" class="lang-meta">0.4%</text>
-      <text x="688" y="14" class="lang-bytes">121.9K</text>
+      <text x="688" y="14" class="lang-bytes">143.9K</text>
     </g>
   
     <g transform="translate(0, 150)">
       <text x="0" y="14" class="lang-name">Other</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#3b82f6" />
-      <text x="610" y="14" class="lang-meta">1.0%</text>
-      <text x="688" y="14" class="lang-bytes">355.5K</text>
+      <text x="610" y="14" class="lang-meta">1.1%</text>
+      <text x="688" y="14" class="lang-bytes">368.5K</text>
     </g>
   
     </g>
 
-    <text x="28" y="276" class="footer">Scanned 22 public repositories.</text>
+    <text x="28" y="276" class="footer">Scanned 23 public repositories.</text>
   
 </svg>
