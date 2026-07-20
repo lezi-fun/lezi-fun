@@ -40,8 +40,8 @@
     <g transform="translate(0, 0)">
       <text x="0" y="14" class="lang-name">TypeScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="387" height="12" rx="6" fill="#8b5cf6" />
-      <text x="610" y="14" class="lang-meta">93.9%</text>
+      <rect x="184" y="4" width="386" height="12" rx="6" fill="#8b5cf6" />
+      <text x="610" y="14" class="lang-meta">93.7%</text>
       <text x="688" y="14" class="lang-bytes">32.3M</text>
     </g>
   
@@ -54,19 +54,19 @@
     </g>
   
     <g transform="translate(0, 60)">
-      <text x="0" y="14" class="lang-name">C++</text>
+      <text x="0" y="14" class="lang-name">JavaScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#22c55e" />
-      <text x="610" y="14" class="lang-meta">0.6%</text>
-      <text x="688" y="14" class="lang-bytes">216.3K</text>
+      <text x="610" y="14" class="lang-meta">0.8%</text>
+      <text x="688" y="14" class="lang-bytes">268.1K</text>
     </g>
   
     <g transform="translate(0, 90)">
-      <text x="0" y="14" class="lang-name">JavaScript</text>
+      <text x="0" y="14" class="lang-name">C++</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#f59e0b" />
       <text x="610" y="14" class="lang-meta">0.6%</text>
-      <text x="688" y="14" class="lang-bytes">202.7K</text>
+      <text x="688" y="14" class="lang-bytes">216.3K</text>
     </g>
   
     <g transform="translate(0, 120)">
@@ -82,7 +82,7 @@
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#3b82f6" />
       <text x="610" y="14" class="lang-meta">1.1%</text>
-      <text x="688" y="14" class="lang-bytes">368.5K</text>
+      <text x="688" y="14" class="lang-bytes">369.9K</text>
     </g>
   
     </g>
