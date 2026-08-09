@@ -40,7 +40,6 @@ I build things that are fast to use, easy to understand, and actually useful.
 
 <p>
   <img src="https://img.shields.io/badge/GitHub_API-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub API" />
-  <img src="https://img.shields.io/badge/Codex-111111?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
   <img src="https://img.shields.io/badge/GitHub_Actions_&_Workflows-24292F?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions & Workflows" />
 </p>
 
