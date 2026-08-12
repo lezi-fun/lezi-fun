@@ -40,8 +40,8 @@
     <g transform="translate(0, 0)">
       <text x="0" y="14" class="lang-name">TypeScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="382" height="12" rx="6" fill="#8b5cf6" />
-      <text x="610" y="14" class="lang-meta">92.7%</text>
+      <rect x="184" y="4" width="380" height="12" rx="6" fill="#8b5cf6" />
+      <text x="610" y="14" class="lang-meta">92.3%</text>
       <text x="688" y="14" class="lang-bytes">32.4M</text>
     </g>
   
@@ -49,16 +49,16 @@
       <text x="0" y="14" class="lang-name">Rust</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="14" height="12" rx="6" fill="#06b6d4" />
-      <text x="610" y="14" class="lang-meta">3.4%</text>
+      <text x="610" y="14" class="lang-meta">3.3%</text>
       <text x="688" y="14" class="lang-bytes">1.2M</text>
     </g>
   
     <g transform="translate(0, 60)">
       <text x="0" y="14" class="lang-name">JavaScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="7" height="12" rx="6" fill="#22c55e" />
-      <text x="610" y="14" class="lang-meta">1.7%</text>
-      <text x="688" y="14" class="lang-bytes">581.3K</text>
+      <rect x="184" y="4" width="8" height="12" rx="6" fill="#22c55e" />
+      <text x="610" y="14" class="lang-meta">1.9%</text>
+      <text x="688" y="14" class="lang-bytes">673.3K</text>
     </g>
   
     <g transform="translate(0, 90)">
@@ -81,8 +81,8 @@
       <text x="0" y="14" class="lang-name">Other</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#3b82f6" />
-      <text x="610" y="14" class="lang-meta">1.3%</text>
-      <text x="688" y="14" class="lang-bytes">450.6K</text>
+      <text x="610" y="14" class="lang-meta">1.4%</text>
+      <text x="688" y="14" class="lang-bytes">485.2K</text>
     </g>
   
     </g>
