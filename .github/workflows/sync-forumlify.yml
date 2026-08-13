@@ -30,6 +30,7 @@ jobs:
 
           UPSTREAM_SHA=$(git ls-remote https://github.com/Furrium/forumlify.git refs/heads/next | awk '{print $1}')
           LOCAL_SHA=$(git rev-parse HEAD)
+          SYNCED_UPSTREAM_SHA=$(git log -1 --format=%B | sed -n 's/^Upstream-SHA: //p' | tail -n 1)
 
           if [[ -z "$UPSTREAM_SHA" ]]; then
             echo "::error::Could not resolve the upstream next branch."
@@ -38,8 +39,9 @@ jobs:
 
           echo "upstream=$UPSTREAM_SHA"
           echo "local=$LOCAL_SHA"
+          echo "last_synced_upstream=${SYNCED_UPSTREAM_SHA:-none}"
 
-          if [[ "$UPSTREAM_SHA" == "$LOCAL_SHA" ]]; then
+          if [[ "$UPSTREAM_SHA" == "$LOCAL_SHA" || "$UPSTREAM_SHA" == "$SYNCED_UPSTREAM_SHA" ]]; then
             echo "has_updates=false" >> "$GITHUB_OUTPUT"
             echo "No upstream updates. Sync and push steps will be skipped."
           else
@@ -61,17 +63,35 @@ jobs:
 
       - name: Fetch and sync from upstream
         run: |
+          set -euo pipefail
+
           git config user.name "forumlify-sync-bot"
           git config user.email "forumlify-sync@users.noreply.github.com"
           git remote add upstream https://github.com/Furrium/forumlify.git
           git fetch upstream next
-          git reset --hard upstream/next
-          # Preserve the deploy repo's own CI (.github) and drop upstream's workflows.
-          # Pushing upstream workflow files requires `workflow` scope on the PAT;
-          # they are irrelevant to this deploy repo anyway.
-          rm -rf .github
-          git checkout origin/next -- .github
+          UPSTREAM_SHA=$(git rev-parse upstream/next)
+          DEPLOY_SHA=$(git rev-parse HEAD)
+
+          # Replace the deploy branch's tracked tree with upstream/next while
+          # keeping the current deploy commit as the parent of the sync commit.
+          # This avoids pushing upstream commits that changed workflow files.
+          git read-tree --reset -u upstream/next
+
+          # Preserve the deploy repository's own workflows. The sync PAT does
+          # not need `workflow` scope because upstream workflow changes are
+          # intentionally excluded from the commit pushed to this repository.
+          git restore --source="$DEPLOY_SHA" --staged --worktree .github
+
+          if ! git diff --cached --quiet -- .github; then
+            echo "::error::Deploy-specific workflow files changed during sync."
+            git diff --cached --name-status -- .github
+            exit 1
+          fi
+
+          git commit --allow-empty \
+            -m "chore: sync forumlify next" \
+            -m "Upstream-SHA: $UPSTREAM_SHA"
 
       - name: Push synced next to deploy repo
         run: |
-          git push --force origin next
+          git push origin next
