@@ -10,9 +10,11 @@ permissions:
   contents: read
 
 jobs:
-  sync:
+  check-updates:
     runs-on: ubuntu-latest
     if: github.repository == 'lezi-fun/lezi-fun'
+    outputs:
+      has_updates: ${{ steps.upstream.outputs.has_updates }}
     steps:
       - name: Checkout deploy repo (next branch)
         uses: actions/checkout@v4
@@ -24,15 +26,40 @@ jobs:
       - name: Check upstream next branch head
         id: upstream
         run: |
+          set -euo pipefail
+
           UPSTREAM_SHA=$(git ls-remote https://github.com/Furrium/forumlify.git refs/heads/next | awk '{print $1}')
           LOCAL_SHA=$(git rev-parse HEAD)
+
+          if [[ -z "$UPSTREAM_SHA" ]]; then
+            echo "::error::Could not resolve the upstream next branch."
+            exit 1
+          fi
+
           echo "upstream=$UPSTREAM_SHA"
           echo "local=$LOCAL_SHA"
-          echo "upstream_sha=$UPSTREAM_SHA" >> "$GITHUB_OUTPUT"
-          echo "local_sha=$LOCAL_SHA" >> "$GITHUB_OUTPUT"
+
+          if [[ "$UPSTREAM_SHA" == "$LOCAL_SHA" ]]; then
+            echo "has_updates=false" >> "$GITHUB_OUTPUT"
+            echo "No upstream updates. Sync and push steps will be skipped."
+          else
+            echo "has_updates=true" >> "$GITHUB_OUTPUT"
+            echo "Upstream update detected."
+          fi
+
+  sync:
+    needs: check-updates
+    if: needs.check-updates.outputs.has_updates == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout deploy repo (next branch)
+        uses: actions/checkout@v4
+        with:
+          repository: lezi-fun/forumlify-deploy
+          ref: next
+          token: ${{ secrets.FORUMLIFY_SYNC_PAT }}
 
       - name: Fetch and sync from upstream
-        if: steps.upstream.outputs.upstream_sha != steps.upstream.outputs.local_sha
         run: |
           git config user.name "forumlify-sync-bot"
           git config user.email "forumlify-sync@users.noreply.github.com"
@@ -41,6 +68,5 @@ jobs:
           git reset --hard upstream/next
 
       - name: Push synced next to deploy repo
-        if: steps.upstream.outputs.upstream_sha != steps.upstream.outputs.local_sha
         run: |
           git push --force origin next
