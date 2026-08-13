@@ -66,6 +66,11 @@ jobs:
           git remote add upstream https://github.com/Furrium/forumlify.git
           git fetch upstream next
           git reset --hard upstream/next
+          # Preserve the deploy repo's own CI (.github) and drop upstream's workflows.
+          # Pushing upstream workflow files requires `workflow` scope on the PAT;
+          # they are irrelevant to this deploy repo anyway.
+          rm -rf .github
+          git checkout origin/next -- .github
 
       - name: Push synced next to deploy repo
         run: |
