@@ -40,7 +40,7 @@
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="140" height="54" rx="16" class="tile" />
       <text x="14" y="22" class="tile-label">Current streak</text>
-      <text x="14" y="40" class="tile-value">6 days</text>
+      <text x="14" y="40" class="tile-value">0 days</text>
     </g>
   
       
@@ -54,7 +54,7 @@
     <g transform="translate(300, 0)">
       <rect x="0" y="0" width="140" height="54" rx="16" class="tile" />
       <text x="14" y="22" class="tile-label">Total</text>
-      <text x="14" y="40" class="tile-value">1,094</text>
+      <text x="14" y="40" class="tile-value">1,093</text>
     </g>
   
 
@@ -64,7 +64,7 @@
       
         <rect x="0" y="12" width="10" height="10" rx="3" fill="#0f172a" />
       
-        <rect x="0" y="24" width="10" height="10" rx="3" fill="#0f3d4a" />
+        <rect x="0" y="24" width="10" height="10" rx="3" fill="#0f172a" />
       
         <rect x="0" y="36" width="10" height="10" rx="3" fill="#0f172a" />
       
