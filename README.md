@@ -110,3 +110,5 @@ I build things that are fast to use, easy to understand, and actually useful.
 <p align="center">
   <a href="https://lezi.chat">Website / 个人网站</a>
 </p>
+
+>Be LEZI(fun)!
