@@ -52,41 +52,43 @@ I build things that are fast to use, easy to understand, and actually useful.
 
 ### Featured Projects / 项目展示
 
+> 推荐顺序即排序顺序 / Ordered by how much I'd recommend them.
+
 <table>
   <tr>
     <td width="50%">
-      <a href="https://github.com/lezi-fun/ghbot"><strong>ghbot</strong></a><br/>
+      <a href="https://github.com/lezi-fun/ghbot"><strong>ghbot</strong></a> <img src="https://img.shields.io/github/stars/lezi-fun/ghbot?style=social" alt="stars"/><br/>
       AI GitHub App that reviews pull requests and optionally merges clean PRs.<br/>
       自动审查 Pull Request 的 AI GitHub App，可选自动合并干净的 PR。
     </td>
     <td width="50%">
-      <a href="https://github.com/lezi-fun/nodew-api"><strong>nodew-api</strong></a><br/>
-      Node.js/TS edition of One API — relay, channel routing, tokens, usage logging.<br/>
-      OpenAI 兼容中转网关：渠道路由、令牌管理、用量日志。
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/lezi-fun/codex-webui"><strong>codex-webui</strong></a><br/>
+      <a href="https://github.com/lezi-fun/codex-webui"><strong>codex-webui</strong></a> <img src="https://img.shields.io/github/stars/lezi-fun/codex-webui?style=social" alt="stars"/><br/>
       Local/LAN WebUI for the Codex app-server — approvals, streaming tools, review diffs, mobile support.<br/>
       Codex 本地/局域网 WebUI：审批流、工具流式调用、审查 diff，支持手机访问。
     </td>
+  </tr>
+  <tr>
     <td width="50%">
-      <a href="https://github.com/lezi-fun/cpppp"><strong>cpppp / c+++</strong></a><br/>
-      Modern C++ build system: interactive menu, AI Agent mode, incremental builds, project TOML.<br/>
-      现代化 C++ 编译系统：交互菜单 · AI Agent 模式 · 增量编译 · 项目 toml · 对拍测试。
+      <a href="https://github.com/lezi-fun/nodew-api"><strong>nodew-api</strong></a> <img src="https://img.shields.io/github/stars/lezi-fun/nodew-api?style=social" alt="stars"/><br/>
+      Node.js/TS edition of One API — relay, channel routing, tokens, usage logging.<br/>
+      OpenAI 兼容中转网关：渠道路由、令牌管理、用量日志。
+    </td>
+    <td width="50%">
+      <a href="https://github.com/lezi-fun/m365-copilot-client"><strong>m365-copilot-client</strong></a> <img src="https://img.shields.io/github/stars/lezi-fun/m365-copilot-client?style=social" alt="stars"/><br/>
+      Python client experiments for M365 Copilot — the most-starred repo on this account.<br/>
+      M365 Copilot 的 Python 客户端实验，本账号 star 数最高的仓库。
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/lezi-fun/masker"><strong>masker</strong></a><br/>
-      macOS text sanitizer — auto-detect sensitive info, UUID replacement, AI processing with one-click restore.<br/>
-      macOS 文本脱敏工具：自动检测敏感信息、UUID 替换、AI 处理后一键还原。
+      <a href="https://github.com/lezi-fun/cpppp"><strong>cpppp / c+++</strong></a> <img src="https://img.shields.io/github/stars/lezi-fun/cpppp?style=social" alt="stars"/><br/>
+      Modern C++ build system: interactive menu, AI Agent mode, incremental builds, project TOML.<br/>
+      现代化 C++ 编译系统：交互菜单 · AI Agent 模式 · 增量编译 · 项目 toml · 对拍测试。
     </td>
     <td width="50%">
-      <a href="https://github.com/lezi-fun/subconverter-rs"><strong>subconverter-rs</strong></a><br/>
-      Subconverter re-implemented in Rust.<br/>
-      subconverter 的 Rust 实现。
+      <a href="https://github.com/lezi-fun/masker"><strong>masker</strong></a> <img src="https://img.shields.io/github/stars/lezi-fun/masker?style=social" alt="stars"/><br/>
+      macOS text sanitizer — auto-detect sensitive info, UUID replacement, AI processing with one-click restore.<br/>
+      macOS 文本脱敏工具：自动检测敏感信息、UUID 替换、AI 处理后一键还原。
     </td>
   </tr>
 </table>
