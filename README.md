@@ -8,7 +8,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=8BE9FD&center=true&vCenter=true&width=760&lines=I+build+web+products%2C+open-source+tools%2C+automation%2C+and+practical+utilities.;TypeScript+%7C+Node.js+%7C+Fastify+%7C+React+%7C+Prisma+%7C+C%2B%2B;GitHub+Actions+%2B+Codex+%2B+CMake+%2B+Vite" alt="Typing SVG" />
 
-[lezi.chat](https://lezi.chat) · [ghbot](https://github.com/lezi-fun/ghbot) · [nodew-api](https://github.com/lezi-fun/nodew-api) · [cppp](https://github.com/lezi-fun/cppp)
+[lezi.chat](https://lezi.chat) · [ghbot](https://github.com/lezi-fun/ghbot) · [nodew-api](https://github.com/lezi-fun/nodew-api) · [codex-webui](https://github.com/lezi-fun/codex-webui) · [cpppp](https://github.com/lezi-fun/cpppp)
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=lezi-fun&style=for-the-badge&color=blueviolet" alt="Profile views" />
@@ -48,6 +48,7 @@ I build things that are fast to use, easy to understand, and actually useful.
 - Web products and developer-facing applications
 - Open-source automation and workflow tooling
 - Practical utilities that save time in day-to-day development
+- Upstream contributions — currently hardening MCP resources API & SSE reliability in [M365-Copilot2API (PR #48)](https://github.com/HEXUXIU/M365-Copilot2API/pull/48)
 
 ### Featured Projects / 项目展示
 
@@ -55,24 +56,37 @@ I build things that are fast to use, easy to understand, and actually useful.
   <tr>
     <td width="50%">
       <a href="https://github.com/lezi-fun/ghbot"><strong>ghbot</strong></a><br/>
-      GitHub PR review bot powered by Codex CLI.<br/>
-      GitHub 自动审查机器人，支持严格/宽松审查、内联评论和合并流程。
+      AI GitHub App that reviews pull requests and optionally merges clean PRs.<br/>
+      自动审查 Pull Request 的 AI GitHub App，可选自动合并干净的 PR。
     </td>
     <td width="50%">
       <a href="https://github.com/lezi-fun/nodew-api"><strong>nodew-api</strong></a><br/>
-      One API-style gateway with relay, routing, tokens, and admin console.<br/>
-      面向 OpenAI-compatible 中转、渠道路由、令牌管理和后台控制台。
+      Node.js/TS edition of One API — relay, channel routing, tokens, usage logging.<br/>
+      OpenAI 兼容中转网关：渠道路由、令牌管理、用量日志。
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/lezi-fun/cppp"><strong>cppp / c+++</strong></a><br/>
-      Modern C++ build system with agent mode and incremental builds.<br/>
-      现代化 C++ 构建系统，支持交互菜单、AI Agent 和增量编译。
+      <a href="https://github.com/lezi-fun/codex-webui"><strong>codex-webui</strong></a><br/>
+      Local/LAN WebUI for the Codex app-server — approvals, streaming tools, review diffs, mobile support.<br/>
+      Codex 本地/局域网 WebUI：审批流、工具流式调用、审查 diff，支持手机访问。
     </td>
     <td width="50%">
-      <a href="https://lezi.chat"><strong>lezi.chat</strong></a><br/>
-      Personal website / 个人网站
+      <a href="https://github.com/lezi-fun/cpppp"><strong>cpppp / c+++</strong></a><br/>
+      Modern C++ build system: interactive menu, AI Agent mode, incremental builds, project TOML.<br/>
+      现代化 C++ 编译系统：交互菜单 · AI Agent 模式 · 增量编译 · 项目 toml · 对拍测试。
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/lezi-fun/masker"><strong>masker</strong></a><br/>
+      macOS text sanitizer — auto-detect sensitive info, UUID replacement, AI processing with one-click restore.<br/>
+      macOS 文本脱敏工具：自动检测敏感信息、UUID 替换、AI 处理后一键还原。
+    </td>
+    <td width="50%">
+      <a href="https://github.com/lezi-fun/subconverter-rs"><strong>subconverter-rs</strong></a><br/>
+      Subconverter re-implemented in Rust.<br/>
+      subconverter 的 Rust 实现。
     </td>
   </tr>
 </table>
