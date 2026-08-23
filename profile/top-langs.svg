@@ -40,7 +40,7 @@
     <g transform="translate(0, 0)">
       <text x="0" y="14" class="lang-name">TypeScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="380" height="12" rx="6" fill="#8b5cf6" />
+      <rect x="184" y="4" width="379" height="12" rx="6" fill="#8b5cf6" />
       <text x="610" y="14" class="lang-meta">92.1%</text>
       <text x="688" y="14" class="lang-bytes">32.6M</text>
     </g>
@@ -66,7 +66,7 @@
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#f59e0b" />
       <text x="610" y="14" class="lang-meta">0.6%</text>
-      <text x="688" y="14" class="lang-bytes">216.3K</text>
+      <text x="688" y="14" class="lang-bytes">223.3K</text>
     </g>
   
     <g transform="translate(0, 120)">
@@ -82,11 +82,11 @@
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#3b82f6" />
       <text x="610" y="14" class="lang-meta">1.4%</text>
-      <text x="688" y="14" class="lang-bytes">487.5K</text>
+      <text x="688" y="14" class="lang-bytes">502.3K</text>
     </g>
   
     </g>
 
-    <text x="28" y="276" class="footer">Scanned 24 public repositories.</text>
+    <text x="28" y="276" class="footer">Scanned 21 public repositories.</text>
   
 </svg>
