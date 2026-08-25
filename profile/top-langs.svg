@@ -40,15 +40,15 @@
     <g transform="translate(0, 0)">
       <text x="0" y="14" class="lang-name">TypeScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="379" height="12" rx="6" fill="#8b5cf6" />
-      <text x="610" y="14" class="lang-meta">92.1%</text>
-      <text x="688" y="14" class="lang-bytes">32.6M</text>
+      <rect x="184" y="4" width="377" height="12" rx="6" fill="#8b5cf6" />
+      <text x="610" y="14" class="lang-meta">91.4%</text>
+      <text x="688" y="14" class="lang-bytes">32.7M</text>
     </g>
   
     <g transform="translate(0, 30)">
       <text x="0" y="14" class="lang-name">Rust</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="14" height="12" rx="6" fill="#06b6d4" />
+      <rect x="184" y="4" width="13" height="12" rx="6" fill="#06b6d4" />
       <text x="610" y="14" class="lang-meta">3.3%</text>
       <text x="688" y="14" class="lang-bytes">1.2M</text>
     </g>
@@ -57,32 +57,32 @@
       <text x="0" y="14" class="lang-name">JavaScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="9" height="12" rx="6" fill="#22c55e" />
-      <text x="610" y="14" class="lang-meta">2.1%</text>
-      <text x="688" y="14" class="lang-bytes">754.2K</text>
+      <text x="610" y="14" class="lang-meta">2.2%</text>
+      <text x="688" y="14" class="lang-bytes">781.4K</text>
     </g>
   
     <g transform="translate(0, 90)">
-      <text x="0" y="14" class="lang-name">C++</text>
+      <text x="0" y="14" class="lang-name">HTML</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#f59e0b" />
-      <text x="610" y="14" class="lang-meta">0.6%</text>
-      <text x="688" y="14" class="lang-bytes">223.3K</text>
+      <text x="610" y="14" class="lang-meta">0.8%</text>
+      <text x="688" y="14" class="lang-bytes">303.4K</text>
     </g>
   
     <g transform="translate(0, 120)">
-      <text x="0" y="14" class="lang-name">CSS</text>
+      <text x="0" y="14" class="lang-name">C++</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="6" height="12" rx="6" fill="#ef4444" />
-      <text x="610" y="14" class="lang-meta">0.4%</text>
-      <text x="688" y="14" class="lang-bytes">157.9K</text>
+      <text x="610" y="14" class="lang-meta">0.6%</text>
+      <text x="688" y="14" class="lang-bytes">223.3K</text>
     </g>
   
     <g transform="translate(0, 150)">
       <text x="0" y="14" class="lang-name">Other</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="6" height="12" rx="6" fill="#3b82f6" />
-      <text x="610" y="14" class="lang-meta">1.4%</text>
-      <text x="688" y="14" class="lang-bytes">502.3K</text>
+      <rect x="184" y="4" width="7" height="12" rx="6" fill="#3b82f6" />
+      <text x="610" y="14" class="lang-meta">1.7%</text>
+      <text x="688" y="14" class="lang-bytes">604.7K</text>
     </g>
   
     </g>
