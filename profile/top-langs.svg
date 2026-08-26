@@ -40,8 +40,8 @@
     <g transform="translate(0, 0)">
       <text x="0" y="14" class="lang-name">TypeScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
-      <rect x="184" y="4" width="377" height="12" rx="6" fill="#8b5cf6" />
-      <text x="610" y="14" class="lang-meta">91.4%</text>
+      <rect x="184" y="4" width="376" height="12" rx="6" fill="#8b5cf6" />
+      <text x="610" y="14" class="lang-meta">91.3%</text>
       <text x="688" y="14" class="lang-bytes">32.7M</text>
     </g>
   
@@ -81,8 +81,8 @@
       <text x="0" y="14" class="lang-name">Other</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="7" height="12" rx="6" fill="#3b82f6" />
-      <text x="610" y="14" class="lang-meta">1.7%</text>
-      <text x="688" y="14" class="lang-bytes">604.7K</text>
+      <text x="610" y="14" class="lang-meta">1.8%</text>
+      <text x="688" y="14" class="lang-bytes">633.6K</text>
     </g>
   
     </g>
