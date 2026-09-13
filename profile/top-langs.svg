@@ -41,7 +41,7 @@
       <text x="0" y="14" class="lang-name">TypeScript</text>
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="372" height="12" rx="6" fill="#8b5cf6" />
-      <text x="610" y="14" class="lang-meta">90.3%</text>
+      <text x="610" y="14" class="lang-meta">90.2%</text>
       <text x="688" y="14" class="lang-bytes">32.7M</text>
     </g>
   
@@ -82,7 +82,7 @@
       <rect x="184" y="4" width="412" height="12" rx="6" class="track" />
       <rect x="184" y="4" width="9" height="12" rx="6" fill="#3b82f6" />
       <text x="610" y="14" class="lang-meta">2.1%</text>
-      <text x="688" y="14" class="lang-bytes">772.3K</text>
+      <text x="688" y="14" class="lang-bytes">773.6K</text>
     </g>
   
     </g>
